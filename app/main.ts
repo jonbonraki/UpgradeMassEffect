@@ -1,2 +1,2 @@
 import {upgradeAdapter} from './upgrade-adapter';
-upgradeAdapter.bootstrap(document.body, ['contacts-app']);
+upgradeAdapter.bootstrap(document.body, ['characters-app']);

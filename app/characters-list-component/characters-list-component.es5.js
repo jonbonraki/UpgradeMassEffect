@@ -1,5 +1,5 @@
 angular
-  .module('characters-list-component', ['ngRoute', 'characters-service'])
+  .module('characters-list-component', ['ngRoute', 'characters-service', 'characters-list-item-component'])
   .config(function ($routeProvider) {
     $routeProvider.when('/', {
       template: '<characters-list-component></characters-list-component>'
